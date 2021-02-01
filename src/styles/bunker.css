@@ -1,0 +1,226 @@
+body {
+  background: white;
+  font-family: 'Open Sans', sans-serif;
+  color: #0c1e2b;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.top {
+  background-color: #f2f2f2;
+  position: absolute;
+  width: 100%;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.groupLogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.soloLogo {
+  /* padding: 7px; */
+  width: 20%;
+}
+
+.soloLogo img {
+    width: 100%;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.hero {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 15vh;
+}
+
+.heroTextDiv {
+  position: relative;
+}
+
+.heroText {
+  font-size: 7vh;
+  font-size: clamp(2em, 4vh, 4em);
+  text-decoration: underline;
+  text-decoration-color: #ffae0d;
+}
+
+.orangeStyle {
+  position: absolute;
+  background: #ffae0d;
+  height: 30vh;
+  width: 6vw;
+  left: -15px;
+  z-index: -10;
+}
+
+.carousel {
+  background: #f0f0f0;
+  width: 50vw;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+
+#topQuestion {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 6vh;
+}
+
+#answers {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+ul {
+  list-style: none;
+}
+
+.answer {
+  background: #ffffff;
+  width: 199px;
+  height: 77px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #a9a9a9;
+  font-size: 20px;
+}
+
+#next {
+  background: #ffae0d;
+  color: white;
+  width: 11vw;
+  border: none;
+  height: 4vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 21px;
+}
+
+#la {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  transition-duration: 0.1s;
+  border: none;
+  font-size: 25px;
+  outline: 0;
+  left: 1%;
+  font-size: 40px;
+}
+
+#ra {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  transition-duration: 0.1s;
+  border: none;
+  font-size: 25px;
+  outline: 0;
+  right: 1%;
+  font-size: 40px;
+}
+
+.orange {
+  text-decoration: none;
+}
+
+.blueText {
+  font-weight: bold;
+  color: navy;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.prev-next {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 50%;
+    top: calc( 50% - 25px);
+    left: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  /* CSS */
+
+  .container {
+    width: 100%;
+  }
+
+  .hero {
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 15vh;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+
+  .top {
+    background-color: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    width: 100%;
+    max-width: initial;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+}
