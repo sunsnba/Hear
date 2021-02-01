@@ -36,7 +36,6 @@ body {
   }
   
   .soloLogo {
-    /* padding: 7px; */
     width: 20%;
   }
   
@@ -91,7 +90,7 @@ body {
     padding-top: 6vh;
   }
   
-  #answers {
+  .carouselForm {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -113,7 +112,7 @@ body {
     font-size: 20px;
   }
   
-  #next {
+  .nextButton {
     background: #ffae0d;
     color: white;
     border: none;
@@ -123,7 +122,7 @@ body {
     font-size: 21px;
   }
   
-  #la {
+  .leftArrow {
     position: absolute;
     height: 50px;
     width: 50px;
@@ -136,7 +135,7 @@ body {
     font-size: 40px;
   }
   
-  #ra {
+  .rightArrow {
     position: absolute;
     height: 50px;
     width: 50px;

@@ -22,7 +22,9 @@ In creating this project with vanilla JavaScript, HTML and CSS I first built on 
 
 The functionality of my carousel was handled through my index.js file. I stored the questions and provided answers via an array of objects. As users submitted their answers I would track the corresponding box in an array variable so that the provided answers could be shown to the user after they completed the survey. By adding event listeners to the html buttons I was able to listen for any clicks and invoke the appropriate function.
 
-With regards to styling it was necessary to incorporate media queries to account for the smart phone design. In setting sizes to the viewport width or height and incorporating flexbox the smartphone design didn't require too many additional changes.
+With regards to styling it was necessary to incorporate media queries to account for the smart phone design. In setting sizes to the viewport width or height and incorporating flexbox the smartphone design didn't require too much additional styling. I did use classes for all styling, but did add ids on a few elements so it was easier to select with JavaScript.
+
+I ran out of time before getting to the additional features but would probably handle the carousel animations with the transition property next.
 
 Please feel free to contact me if you have any questions.
 
