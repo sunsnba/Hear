@@ -24,7 +24,7 @@ The functionality of my carousel was handled through my index.js file. I stored 
 
 With regards to styling it was necessary to incorporate media queries to account for the smart phone design. In setting sizes to the viewport width or height and incorporating flexbox the smartphone design didn't require too much additional styling. I did use classes for all styling, but did add ids on a few elements so it was easier to select with JavaScript.
 
-I ran out of time before getting to the additional features but would probably handle the carousel animations with the transition property next.
+I ran out of time before getting to the additional features but would probably handle the carousel animations with the transition property next or focus more on my success screen since the UI is really simple.
 
 Please feel free to contact me if you have any questions.
 
