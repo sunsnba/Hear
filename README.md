@@ -4,15 +4,21 @@
 
 From the Hear directory
 
+```
 npm i
+```
 
 Build
 
+```
 npm run build
+```
 
 Start the server
 
+```
 npm run dev-server
+```
 
 Go to http://localhost:8080/
 
